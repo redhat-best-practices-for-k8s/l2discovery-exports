@@ -24,6 +24,7 @@ type Iface struct {
 	IfPci     PCIAddress
 	IfPTPCaps PTPCaps
 	IfUp      bool
+	IfMaster  string
 }
 
 type Neighbors struct {
